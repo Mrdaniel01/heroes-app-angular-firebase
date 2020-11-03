@@ -1,0 +1,51 @@
+<h1>Listado de Héroes</h1>
+
+<div class="row ">
+  <div class="col text-right mt-5">
+    <button
+      routerLink='/heroe/nuevo'
+      class="btn btn-primary">
+      <i class="fa fa-plus"></i>
+      Agregar
+    </button>
+  </div>
+</div>
+
+  <table class="table table-striped mt-3">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Poder</th>
+        <th scope="col">Vivo</th>
+        <th scope="col">Tools</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Comer</td>
+        <td>Vivo</td>
+        <td>Cuchara</td>
+      </tr>      
+    </tbody>
+  </table>
+
+  <div class="alert alert-info text-center mt-3">
+    <h4>Cargando</h4>
+    <p>
+      <i class="fa fa-sync-alt fa-spin fa-2x"></i>
+    </p>
+    <p class="">
+      Espere por favor
+    </p>
+  </div>
+
+  <div class="alert alert-warning text-center mt-3">
+    <h4>No hay registros</h4>
+    <p>
+      <i class="fa fa-exclamation fa-2x"></i>
+    </p>
+  </div>
+
